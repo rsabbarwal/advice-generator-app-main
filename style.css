@@ -81,3 +81,18 @@ body {
     transform: rotate(360deg);
   }
 }
+.hidden {
+  display: none;
+}
+
+@media (max-width: 810px) {
+  .advice {
+    width: 342px;
+  }
+  .hidden-main {
+    display: none;
+  }
+  .hidden {
+    display: inline;
+  }
+}
